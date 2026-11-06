@@ -1,0 +1,30 @@
+# Lingkungan Node & Frontend
+node_modules/
+dist/
+.vite/
+
+# Lingkungan Python & AI
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env_python/
+backend-ai/data/
+backend-ai/saved_models/
+
+# Lingkungan Blockchain
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# Variabel Rahasia (PENTING)
+.env
+.env.*
+!.env.example
+
+# Sistem Operasi
+.DS_Store
+Thumbs.db
