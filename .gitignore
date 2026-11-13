@@ -19,6 +19,7 @@ cache/
 typechain-types/
 coverage/
 coverage.json
+deployments/localhost.json
 
 # Variabel Rahasia (PENTING)
 .env
