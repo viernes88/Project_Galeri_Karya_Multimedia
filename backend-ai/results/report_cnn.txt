@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+     lanskap       1.00      0.95      0.98        42
+       makro       0.93      1.00      0.96        39
+      potret       1.00      0.98      0.99        43
+
+    accuracy                           0.98       124
+   macro avg       0.98      0.98      0.98       124
+weighted avg       0.98      0.98      0.98       124
