@@ -1,9 +1,10 @@
 export const API_URL =
   import.meta.env.VITE_API_URL || "http://127.0.0.1:5000/api";
-export const RPC_URL = import.meta.env.VITE_RPC_URL || "http://127.0.0.1:8545";
-export const IPFS_GATEWAY = (
-  import.meta.env.VITE_IPFS_GATEWAY || "https://gateway.pinata.cloud/ipfs"
-).replace(/\/$/, "");
+export const RPC_URL = import.meta.env.VITE_RPC_URL || "";
+export const IPFS_GATEWAY = (import.meta.env.VITE_IPFS_GATEWAY || "").replace(
+  /\/$/,
+  "",
+);
 
 export const MAX_UPLOAD_MB = 10; // samakan dengan MAX_UPLOAD_MB di backend-ai
 
